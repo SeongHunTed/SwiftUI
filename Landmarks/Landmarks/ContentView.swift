@@ -9,9 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-			Text("Turtle Rock")
-				.font(.title)
+			VStack(alignment: .leading) {
+				Text("Turtle Rock")
+					.font(.title)
 				.foregroundStyle(.black)
+				
+				HStack {
+					Text("Johsua Tree National Park")
+						.font(.subheadline)
+					Spacer()
+					Text("California")
+						.font(.subheadline)
+				}
+			}
+			.padding()
     }
 }
 
