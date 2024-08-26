@@ -9,8 +9,6 @@ import CoreLocation
 import Foundation
 import SwiftUI
 
-var landmarks: [Landmark] = load("landmarkData.json")
-
 struct Landmark: Hashable, Codable, Identifiable {
 	var id: Int
 	var name: String
